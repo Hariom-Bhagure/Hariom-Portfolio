@@ -12,7 +12,9 @@
 }
 
 #wrapper{
-    height:100vh;
+  background-color: white;
+  background-image: linear-gradient(90deg, white);
+  
     overflow-y:auto;
     overflow-x: hidden;
 }
@@ -182,8 +184,8 @@ a{
 
   .user-image img{
     z-index:-9;
-    height: 400px;
-    width: 500px;
+    height: 300px;
+    width: 400px;
   }
 
   @keyframes scaleImage {
