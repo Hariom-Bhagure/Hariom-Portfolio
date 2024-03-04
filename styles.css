@@ -91,13 +91,13 @@ a{
 
 .faded-text{
     position:absolute;
-    margin-top: 600rem;
+    margin-top: 200rem;
     user-select:none;
     font-size: 4em;
-    color:rgb(67, 65, 65);
+    color:rgb(190, 185, 185);
     
-    bottom: -16%;
-    left: -5%;
+    bottom: -11%;
+    left: -14%;
     font-weight: bold;
     transition: all 3s;
 }
@@ -176,16 +176,17 @@ a{
   }
 
   .user-image{
-    padding:2.5rem;
+    padding:01rem;
     filter:grayscale(1);
     transition:all 1s;
     animation: scaleImage 5s linear infinite;
   }
 
   .user-image img{
-    z-index:-9;
-    height: 300px;
-    width: 400px;
+    z-index:-3;
+    height: 600px;
+    width: 600px;
+    
   }
 
   @keyframes scaleImage {
@@ -211,9 +212,9 @@ a{
 
 
   .icon-dots{
-    z-index:9;
+    z-index:5;
     bottom:-1rem;
-    right:0;
+    right:2%;
     animation-name:dotsAnimation;
     animation-duration: 5s;
     animation-iteration-count: infinite;
@@ -557,7 +558,7 @@ a{
   font-style:bold;
   color:rgb(231,231,231);
   bottom:-34.5%;
-  right:-25%;
+  right:-10%;
   user-select:none;
   overflow-y:hidden;
 }
